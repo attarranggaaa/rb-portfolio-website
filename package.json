@@ -1,0 +1,23 @@
+{
+  "name": "rb-portfolio-website",
+  "private": true,
+  "license": "MIT",
+  "version": "1.3.5",
+  "author": "",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^12.2.2",
+    "react": "^18.2.0",
+    "react-bricks": "^3.3.1",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.15",
+    "typescript": "^4.7.4"
+  }
+}
