@@ -2,14 +2,12 @@ import { types, Link } from "react-bricks/frontend";
 
 interface ProjectProps {
   title: string;
-  description: string;
   stack: string;
   href: string;
 }
 
 const Project: types.Brick<ProjectProps> = ({
   title,
-  description,
   href,
   stack,
   ...rest
@@ -36,11 +34,6 @@ Project.schema = {
     {
       name: "title",
       label: "Title",
-      type: types.SideEditPropType.Text,
-    },
-    {
-      name: "description",
-      label: "Description",
       type: types.SideEditPropType.Text,
     },
     {

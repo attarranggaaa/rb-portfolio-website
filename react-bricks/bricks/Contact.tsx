@@ -17,6 +17,7 @@ const Contact: types.Brick = () => {
       )
       .then(
         (result) => {
+          e.target.reset();
           alert("Success");
         },
         (error) => {

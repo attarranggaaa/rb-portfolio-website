@@ -18,7 +18,7 @@ const NavLink: types.Brick<NavLinkProps> = ({
       <span
         className={`cursor-pointer text-base ${
           section === "hero"
-            ? "flex justify-center items-center w-20 py-2 hover:bg-base hover:text-primary duration-100"
+            ? "flex justify-center items-center w-16 md:w-20 py-2 hover:bg-base hover:text-primary duration-100"
             : section === "navbar" &&
               "relative text-base font-medium before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-base before:transition hover:before:scale-100"
         }`}

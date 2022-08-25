@@ -5,15 +5,10 @@ import Image from "next/image";
 const Navbar: types.Brick = () => {
   return (
     <nav className="w-full h-20 md:h-28 bg-primary">
-      <div className="lg:px-28 items-center md:px-14 px-4 h-full flex justify-between">
+      <div className="lg:px-28 items-center md:px-14 px-6 h-full flex justify-between">
         <Link href="/">
           <div className="w-12  flex items-center cursor-pointer">
-            <Image
-              width={1500}
-              height={700}
-              src="/logo.svg"
-              alt="logo"
-            />
+            <Image width={1500} height={700} src="/logo.svg" alt="logo" />
           </div>
         </Link>
         <Repeater
