@@ -14,7 +14,7 @@ const Navbar: types.Brick = () => {
         <Repeater
           propName="navLinks"
           renderWrapper={(items) => (
-            <div className="flex space-x-6 md:space-x-12 font-medium md:text-lg text-md text-base">
+            <div className="flex space-x-4 md:space-x-12 font-medium md:text-lg text-md text-base">
               {items}
             </div>
           )}
